@@ -1,15 +1,15 @@
 import React from 'react'
-import Weather from './components/Weather'
-import UserStatus from './components/UserStatus'
-import Greeting from './components/Greeting'
+import StyledCard from './components/StyledCard'
+import ProfileCard from './components/ProfileCard'
+import IconComponent from './components/IconComponent'
 
 const App = () => {
   return (
     <div>
+      <StyledCard/>
+      <ProfileCard/>
+      <IconComponent/>
       
-    <Weather temperature={15} />
-    <UserStatus loggedIn={true} isAdmin={true}/>
-    <Greeting timeOfDay={"morning"}/>
     </div>
   )
 }
